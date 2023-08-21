@@ -10,6 +10,7 @@ The goal of this workshop is to build a multi-tenant Software-as-a-Service (SaaS
 
 By the end of this workshop you will be able to understand the challenges that are unique to a SaaS based delivery, such as onboarding, tenant isolation, data partitioning, tenant deployment pipelines, observability, and how to address them using AWS Serverless services. You will also learn about Fauna’s “parent-child database” feature and Region Groups makes implementation of a silo model (with all its advantages) easy without any of the management trade-offs.
 
+See these labs at <TBD>
 
 ## Security
 
