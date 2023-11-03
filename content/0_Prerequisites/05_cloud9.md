@@ -46,7 +46,7 @@ but we recommend using AWS Cloud9 integrated development environment (IDE).
 
 * **cd** into the **Lab1/scripts** folder
   ```
-  cd ~/environment/aws-serverless-saas-workshop/Lab1/scripts
+  cd ~/environment/fauna-serverless-saas-workshop/Lab1/scripts
   ```
   
 * A template file **.env.template** is located in this folder. Make a copy and name it **.env**, and edit in the value for **FAUNA_API_KEY**
