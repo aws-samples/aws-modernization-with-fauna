@@ -8,7 +8,7 @@ weight: 2
 
 The diagram below depicts the overall architecture of the lab you just deployed. 
 
-![Lab3 architecture](/images/ServerlessSaas-Final.png)
+![Lab3 architecture](/images/ServerlessSaas-FInal.png)
 
 ## What was updated?
 
