@@ -74,7 +74,7 @@ For local development (i.e. you're not using Cloud9), ensure that you have the f
   * Update the **FAUNA_API_KEY** variable to the value you previously saved when you generated an API Key using
     the web shell
 
-  * Use the default value for STACK_NAME (this is a string prefix that AWS SAM prepends to provisioned resources)
+  * Use the default value for **STACK_NAME** (this is a string prefix that AWS SAM prepends to provisioned resources)
 
   * Update the **AWS_PROFILE** variable to match the profile name you set in the AWS **credentials** file previously
 
