@@ -58,7 +58,7 @@ but we recommend using AWS Cloud9 integrated development environment (IDE).
 
   * Since we're using the Cloud9 IDE, leave **AWS_PROFILE** as **default**
 
-    The following shows an example .env file entries:
+    The following shows an example **.env** file entries:
 
     ```
     STACK_NAME="serverless-saas-fauna-workshop-lab1"
