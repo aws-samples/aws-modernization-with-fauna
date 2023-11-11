@@ -48,15 +48,18 @@ but we recommend using AWS Cloud9 integrated development environment (IDE).
   ```
   cd ~/environment/fauna-serverless-saas-workshop/Lab1/scripts
   ```
-  Recall that during the Fauna setup, you generated an API Key for your database. This Key is to be used when instantiating a Fauna client (in the Lambda functions that   implement the sample project's APIs) to communicate with the database. We'll also be using this key to run some scripts to setup the database with its initial schema    of Collections and Indexes. In the following step, all we need to do is setup this Key in an **.env** file, which our deployment script will pick up and push to the         appropriate resources where it is needed.
+  Recall that during the Fauna setup, you generated an API Key for your database. This Key is to be used when instantiating a Fauna client (in the Lambda functions that   implement the sample project's APIs) to communicate with the database. We'll also be using this key to run some scripts to setup the database with its initial schema    of Collections and Indexes. In the following step, all we need to do is setup this Key in an **.env** file, which our deployment script will pick up and push to the     appropriate resources where it is needed.
 
-* A template file **.env.template** is located in this folder. Make a copy and name it **.env**, and edit in the value for **FAUNA_API_KEY**
+  * A template file **.env.template** is located in this folder. Make a copy and name it **.env**, and edit in the value for **FAUNA_API_KEY**
 
-  * Update the **FAUNA_API_KEY** variable to the value you previously saved when you generated an API Key using
-    the web shell
-  * Leave **AWS_PROFILE** as **default**
+  * Update the **FAUNA_API_KEY** variable to the value saved previously, when you generated an API Key using the web shell
 
-    The following shows an example **.env** file entries:
+  * Use the default value for **STACK_NAME** (this is a string prefix that AWS SAM prepends to provisioned resources)
+
+  * Since we're using the Cloud9 IDE, leave **AWS_PROFILE** as default
+
+    The resulting **.env** file should appear as follows:
+
     ```
     STACK_NAME="serverless-saas-fauna-workshop-lab1"
     FAUNA_API_KEY="<the API Key>"
