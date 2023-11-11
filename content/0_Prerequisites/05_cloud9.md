@@ -56,7 +56,7 @@ but we recommend using AWS Cloud9 integrated development environment (IDE).
 
   * Use the default value for **STACK_NAME** (this is a string prefix that AWS SAM prepends to provisioned resources)
 
-  * Since we're using the Cloud9 IDE, leave **AWS_PROFILE** as default
+  * Since we're using the Cloud9 IDE, leave **AWS_PROFILE** as **default**
 
     The resulting **.env** file should appear as follows:
 
