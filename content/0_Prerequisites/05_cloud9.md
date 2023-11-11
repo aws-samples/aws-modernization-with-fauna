@@ -50,7 +50,7 @@ but we recommend using AWS Cloud9 integrated development environment (IDE).
   ```
   Recall that during the Fauna setup, you generated an API Key for your database. This Key is to be used when instantiating a Fauna client (in the Lambda functions that   implement the sample project's APIs) to communicate with the database. We'll also be using this key to run some scripts to setup the database with its initial schema    of Collections and Indexes. In the following step, all we need to do is setup this Key in an **.env** file, which our deployment script will pick up and push to the     appropriate resources where it is needed.
 
-  * A template file **.env.template** is located in this folder. Make a copy and name it **.env**, and edit the value for the **FAUNA_API_KEY**
+  * A template file **.env.template** is located in this folder. Make a copy and name it **.env**, edit this file, and update the value for **FAUNA_API_KEY**
 
   * Update the **FAUNA_API_KEY** variable to the value saved previously, when you generated an API Key using the web shell
 
