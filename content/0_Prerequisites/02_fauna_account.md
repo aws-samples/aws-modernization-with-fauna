@@ -5,11 +5,11 @@ weight = 2
 +++
 
 ## Signup for an account
-* If you don't yet have a Fauna account, register for one [here](https://dashboard.fauna.com/accounts/register)
+* If you don't yet have a Fauna account, register for one [here](https://dashboard.fauna.com/register?ref=aws-serverless-saas-workshop)
 
 ## Create a database
 
-* Login to the Fauna [dashboard](https://beta.dashboard.fauna.com)
+* Login to the Fauna [dashboard](https://dashboard.fauna.com/?ref=aws-serverless-saas-workshop)
 * Create a new database
   * Provide a name, e.g. **serverless_workshop**
   * Choose a [Region Group](https://docs.fauna.com/fauna/current/learn/understanding/region_groups),
